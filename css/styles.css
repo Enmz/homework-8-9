@@ -170,9 +170,9 @@ a {
  /* Submenu */
 
 .submenu a {
-  font-family: 'Courier New';
+  font-family: 'Garamond';
   font-weight: 700;
-  font-size: 18px;
+  font-size: 17px;
   color: #6E7074;
   padding: 10px 10px 10px 30px;
   text-align: center;
@@ -236,7 +236,7 @@ a {
   width: 100%;
   top: 100%;
   left: -100%;
-  margin-top: -43px;
+  margin-top: -42px;
   padding-right: 5px;
   display: none;
 }
