@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset='utf-8'>
+  <title>Table</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header_container">
+      <a class="logo" href="..//index.html"></a>
+      <ul class="menu">
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="gallery.html">Gallery</a>
+        </li> 
+        <li class="box-menu">
+          <a class="active" href="#">Homeworks</a>
+          <ul class="submenu">
+            <li><a class="active" href="table.html">Tabble</a></li>
+            <li><a href="hw4.html">Inline-block</a></li>
+            <li><a href="hw5.html">Float</a></li>
+            <li class="box-menu"><a href="#">Layauts</a>
+              <ul class="submenu">
+                <li><a href="hw6.html">Flex</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <a class="login" href="#">Login</a>
+    </div>
+  </header>
+  <main class="row_main">
+    <section>
+      <h1 class="title">Table</h1>
+      <div class="container">
+        <table class="margin-auto">
+          <tr>
+            <td colspan="2" class="bg-grey outline"></td>
+            <td class="bg-green outline h-150 w-150"></td>
+            <td class="bg-green outline h-150 w-150"></td>
+            <td class="bg-green outline h-150 w-150"></td>
+            <td rowspan="3" class="bg-lgreen outline h-150 w-150"></td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="bg-brown outline h-150 w-150"></td>
+            <td class="bg-green outline h-150 w-150"></td>
+            <td rowspan="2" colspan="3" class="bg-orange outline h-150 w-150"></td>
+          </tr>
+          <tr>
+            <td class="bg-green outline h-150 w-150"></td>
+          </tr>
+          <tr>
+            <td colspan="3" rowspan="2" class="bg-turquoise outline h-150 w-150"></td>
+            <td class="bg-green outline h-150 w-150"></td>
+            <td class="bg-green outline h-150 w-150"></td>
+            <td rowspan="2" class="bg-brown outline h-150 w-150"></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="bg-grey outline h-150 w-150"></td>
+          </tr>
+        </table>
+      </div>
+    </section> 
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer-menu fz-0">
+        <li><a href="#">Telegram</a></li>
+        <li><a href="#">Youtube</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+      </ul>
+      <p class="fz-20">
+        © Footer 2023. 
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
